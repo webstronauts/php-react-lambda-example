@@ -1,0 +1,11 @@
+{
+    "name": "php-react-lamda-example",
+    "require": {
+        "php": "^5.5|^7.0",
+        "aws/aws-sdk-php": "^3.17",
+        "silex/silex": "^1.3"
+    },
+    "scripts": {
+        "run": "php -S localhost:8080 -t dist server/index.php"
+    }
+}
